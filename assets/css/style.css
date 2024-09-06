@@ -1,0 +1,56 @@
+/* #common area */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #end-common area */
+
+
+/* #debug area */
+.debug{
+    height: 50px;
+    background-color: lightskyblue;
+   
+}
+
+
+
+/* #end-debug area */
+
+
+/* #utilities area */
+
+.flex-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row ;
+    background-color: orange;
+    margin: auto;
+    border: 1px dashed black;
+    
+    
+    
+    
+
+
+}
+
+.logo, .login{
+    width: 25%;
+    text-align: left;
+    
+    border: 1px dashed black;
+    
+}
+.link{
+
+    width: 50%;
+    text-align: center;
+    
+    border: 1px dashed black;
+    
+}
+
+/* #end-utilities area */
