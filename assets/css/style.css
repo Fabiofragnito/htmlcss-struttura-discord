@@ -123,7 +123,7 @@ header{
     border: 2px dashed black;
 }
 
-.debug-footer1{
+.footer1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,12 +149,34 @@ header{
 
 }
 
-.debug-footer2{
-    height: 50px;
+.footer2{
+    height: 65px;
     background-color:  rgb(68, 65, 65);
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items:last baseline;
+    border: 1px solid white;
     
 }
+
+.lightblue-area{
+    width: 70%;
+    height: 75%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lightblue-area div{
+    width: 6%;
+    padding: 2px;
+    background-color: pink;
+    border: 2px dashed black;
+    text-align: center;
+   
+
+}
+
 /* #end-utilities area */
