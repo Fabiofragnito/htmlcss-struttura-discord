@@ -12,10 +12,12 @@
 /* #debug area */
 
 .debug-header{
-    width: 80%;
+    width: 70%;
+    height: 50%;
     display: flex;
     background-color: orange;
     border: 2px dashed black;
+    padding: 5px;
 }
 
 /* #end-debug area */
@@ -24,7 +26,7 @@
 /* #utilities area */
 
 header{
-    height: 50px;
+    height: 70px;
     background-color: lightskyblue;
     display: flex;
     justify-content:center;
