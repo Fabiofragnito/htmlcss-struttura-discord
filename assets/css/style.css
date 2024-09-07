@@ -1,4 +1,4 @@
-/* #common area */
+/*common-area*/
 *{
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
     
 }
 
-/* #end-common area */
+/*end-common-area*/
 
 
-/* #debug area */
+/*debug area*/
 
 .debug-header{
     width: 70%;
@@ -17,13 +17,59 @@
     display: flex;
     background-color: orange;
     border: 2px dashed black;
-    padding: 5px;
+    
+}
+.debug-section1{
+    width: 60%;
+    height:85%;
+    background-color: purple;
+    border:2px dashed black;
+}
+.debug-section2-blue{
+    width: 40%;
+    height:85%;
+    background-color:lightskyblue;
+    border: 2px dashed black;   
 }
 
-/* #end-debug area */
+.debug-section2-pink{
+    width: 30%;
+    height:85%;
+    background-color:pink;
+    border: 2px dashed black;  
+}
+.debug-section5{
+    width: 70%;
+    background-color: green;
+    height: 85%;
+    border: 2px dashed black;
+}
+
+.debug-footer1-pink{
+    width: 20%;
+    height:90%;
+    background-color:rgb(179, 116, 126);
+    border: 2px dashed black;
+
+}
+.debug-footer1-green{
+    width: 12.5%;
+    height:90%;
+    background-color:rgb(17, 185, 45);
+    border: 2px dashed black;
+}
+.debug-footer2{
+    width: 6%;
+    padding: 2px;
+    background-color: pink;
+    border: 2px dashed black;
+    text-align: center;
+}
+
+/*end-debug-area*/
 
 
-/* #utilities area */
+/*utilities-area*/
 
 header{
     height: 70px;
@@ -36,21 +82,15 @@ header{
 .logo, .login{
     width: 25%;
     border: 1px dashed black;
+    padding: 5px;
     
-    a{text-decoration: none;
-
-    }
 }
 
 .link{
     width: 50%;
     text-align: center;
     border: 2px dashed black;
-    a{
-        text-decoration: none;
-
-    }
-   
+    padding: 5px;
     
 }
 
@@ -63,17 +103,7 @@ header{
     height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
-}
-
-.purple-area{
-    width: 60%;
-    height:85%;
-    background-color: purple;
-    border:2px dashed black;
-
+    align-items: center;   
 }
 
 .section2, .section4{
@@ -92,37 +122,12 @@ header{
    background-color: lightgray;
 }
 
-    
-
-.blue-area{
-    width: 40%;
-    height:85%;
-    background-color:lightskyblue;
-    border: 2px dashed black;   
-
-}
-
-.pink-area{
-    width: 30%;
-    height:85%;
-    background-color:pink;
-    border: 2px dashed black;  
-
-}
-
 .section5{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 800px;
     background-color: lightgray;
-}
-
-.green-area{
-    width: 70%;
-    background-color: green;
-    height: 85%;
-    border: 2px dashed black;
 }
 
 .footer1{
@@ -132,23 +137,6 @@ header{
     height: 400px;
     background-color: rgb(68, 65, 65);
     padding-bottom: 10px;
-
-}
-
-.pink-area2{
-    width: 20%;
-    height:90%;
-    background-color:rgb(179, 116, 126);
-    border: 2px dashed black;
-
-}
-
-.lightgreen-area{
-    width: 12.5%;
-    height:90%;
-    background-color:rgb(17, 185, 45);
-    border: 2px dashed black;
-
 }
 
 .footer2{
@@ -157,28 +145,16 @@ header{
     display: flex;
     justify-content:center;
     align-items:last baseline;
-    border: 1px solid white;
-    
+    border: 1px solid white;   
 }
 
-.lightblue-area{
+.container-footer2{
     width: 70%;
     height: 75%;
     background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.lightblue-area div{
-    width: 6%;
-    padding: 2px;
-    background-color: pink;
-    border: 2px dashed black;
-    text-align: center;
-   
-
-}
-
-/* #end-utilities area */
+/*end-utilities-area*/
